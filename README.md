@@ -21,6 +21,8 @@ int main()
     if (array[i] < array[location])
 		location = i;
   }
-  printf("Minimum element is present at location %d and its value is %d.\n", location+1, array[location]);
+  printf(
+  "Minimum element is present at location %d and its value is %d.\n", 
+  location+1, array[location]);
   return 0;
 }
